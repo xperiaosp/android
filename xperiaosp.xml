@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="xperiaosp"
+           fetch="https://github.com/xperiaosp" />
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- XperiAOSP Projects -->
+  <project path="android" name="android" remote="xperiaosp" revision="aosp-7.1" />
+
+  <project path="build" name="android_build" remote="xperiaosp" revision="aosp-7.1" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+</manifest>
