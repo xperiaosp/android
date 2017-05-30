@@ -9,6 +9,9 @@
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
 
+  <!-- Sony Open Devices Project -->
+  <include name="sony.xml" />
+
   <!-- XperiAOSP Projects -->
   <project path="android" name="android" remote="xperiaosp" revision="aosp-7.1" />
 
