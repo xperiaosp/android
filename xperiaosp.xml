@@ -19,4 +19,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="device/sony/common" name="device-sony-common" groups="device" remote="xperiaosp" revision="aosp-7.1" />
+  <project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="xperiaosp" revision="aosp-7.1" />
+  <project path="device/sony/tone" name="device-sony-tone" groups="device" remote="xperiaosp" revision="aosp-7.1" />
+
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="xperiaosp" revision="aosp-7.1" />
+  <project path="external/toybox" name="android_external_toybox" remote="xperiaosp" revision="aosp-7.1" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="xperiaosp" revision="aosp-7.1" />
+  <project path="system/core" name="android_system_core" remote="xperiaosp" revision="aosp-7.1" />
+
 </manifest>

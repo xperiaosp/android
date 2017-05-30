@@ -3,6 +3,9 @@
 
   <remove-project name="platform/build" />
 
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/libnfc-nci" />
+
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-mips" />
@@ -72,8 +75,6 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
 
   <remove-project name="platform/packages/apps/Music" />
-
-  <remove-project name="platform/platform_testing" />
 
   <remove-project name="platform/system/core" />
 
